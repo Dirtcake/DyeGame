@@ -12,7 +12,7 @@ public class Prisma : MonoBehaviour {
     void Update () {
         transform.LookAt (enemy.transform);
 
-        if (Timer (0.5f)) {
+        if (Timer (1f)) {
             Instantiate (projectile, transform.position, transform.rotation);
         }
     }

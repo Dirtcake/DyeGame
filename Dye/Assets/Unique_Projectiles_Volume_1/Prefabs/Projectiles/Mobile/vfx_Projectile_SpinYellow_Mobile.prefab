@@ -50,7 +50,7 @@ TrailRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f108b96efe472f84fb0375d1ca61e1f1, type: 2}
+  - {fileID: 2100000, guid: c9774e0378c545a42adbce60a3905e9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -187,7 +187,7 @@ TrailRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f108b96efe472f84fb0375d1ca61e1f1, type: 2}
+  - {fileID: 2100000, guid: c9774e0378c545a42adbce60a3905e9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,7 +324,7 @@ TrailRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f108b96efe472f84fb0375d1ca61e1f1, type: 2}
+  - {fileID: 2100000, guid: c9774e0378c545a42adbce60a3905e9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ba759cd568c0e47a7018ab70867a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
   accuracy: 100
   fireRate: 1.5
   muzzlePrefab: {fileID: 1463365761452998, guid: a8aaad6bacc642a4c825e7b1f91a175e,
@@ -725,7 +725,7 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 1, b: 1, a: 1}
+      minColor: {r: 0, g: 0, b: 0, a: 1}
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
@@ -5559,8 +5559,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0.5384381, b: 0.18382353, a: 1}
-      maxColor: {r: 1, g: 0.89959437, b: 0.33823532, a: 1}
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
